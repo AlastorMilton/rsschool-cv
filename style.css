@@ -228,3 +228,76 @@ h2 {
   .line-mob {
     display: none;
   }
+
+@media (max-width: 768px) {
+
+    .container {
+      width: 760px;
+      height: 100px;
+      margin: 0 auto;
+    }
+
+    .main-menu {
+      margin-top: -10px;
+      width: 760px;
+      font-size: 12px;
+      flex-wrap: wrap;
+      height: auto;
+    }
+    
+    .menu-item {
+      height: 35px;
+    }
+
+    .line-big {
+      width: 750px;
+    }
+
+    .photo-section {
+      height: auto;
+    }
+
+    .main-container {
+      width: 760px;
+    }
+
+    .main-section {
+      width: 760px;
+      height: auto;
+    }
+
+    .main-big {
+      width: 760px;
+      height: auto;
+    }
+
+    .main-small {
+      width: 760px;
+      height: auto;
+    }
+
+    h2 {
+      font-size: 17px;
+    }
+
+    h1 {
+      font-size: 30px;
+    }
+
+    .line-mob {
+      display: block;
+      position:absolute;
+      bottom:0;
+      border: 0;
+      height: 2px;
+      width: 95%;
+      background: #ffcc00;
+    }
+
+    .footer-space {
+      width: 760px;
+      justify-content: space-around;
+    }
+
+
+  }
